@@ -1,0 +1,129 @@
+.container{
+    margin-top:20px;
+}
+
+.table{
+    border: 2px solid rgb(0, 0, 0);
+}
+td{
+    text-align:center ;
+}
+
+h3{
+    text-align:center;
+}
+
+.height-50{
+    height:10px;
+}
+
+.form-container{
+    
+    display: flex;
+    height:250px;
+    justify-content: center;
+    align-items: center;
+}
+.form-container form{
+    width: 100%;
+    max-width: 600px;
+}
+.form-container .btn-custom:hover {
+    background-color: rgb(3, 60, 21); 
+    
+}
+
+footer{
+    margin-top:250px;
+    text-align: center;
+}
+
+.form-container.bg-custom{
+    background-color: rgb(255, 255, 255) !important;
+
+}
+
+.btn.btn-custom{
+    background-color: rgb(3, 80, 21);
+}
+
+.v-container.h-custom{
+    
+    height:300px;   
+}
+
+.v-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-container form{
+    width:600px;
+    
+}
+.v-container.bg-image{
+    background-image:url(form-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn.btn-custom1{
+    background-color: rgb(198, 173, 12);
+    font-weight: bold;
+}
+
+.btn.btn-custom1:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(198, 173, 12) !important;
+}
+
+.btn-container .btn-custom , 
+.btn-container .border-custom{
+    background-color: rgb(168, 27, 27);
+    border:1px solid rgb(168, 27, 27)!important; 
+}
+
+.btn-container .border-custom:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(168, 27, 27)!important;
+}
+
+
+.body-container.bg-custom{
+    background-color: rgb(236, 239, 241);
+}
+.main-container.h-custom{
+    height:300px;
+}
+.main-container{
+    width: 100%;
+    max-width: 280px; 
+    
+}
+.sign-up-btn.btn-custom{
+    background-color: rgb(40, 80, 71);
+    transition: 0.2s;
+    border:rgb(40, 80, 71)!important;
+}
+.sign-up-btn.btn-custom:hover{
+    color:  rgb(40, 80, 71) !important;
+    background-color: rgb(255, 255, 255);
+    border:1px solid  rgb(40, 80, 71)!important;
+}
+#btn-btn {
+    width: 20px;  /* Increase width */
+    height: 20px; /* Increase height */
+    padding: 10px; /* Adds extra click area */
+    
+}
+
+
+.modal-content {
+    height: 420px; 
+}
+
+
+
+
+
+
